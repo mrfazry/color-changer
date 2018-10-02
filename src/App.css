@@ -1,0 +1,48 @@
+.main-text, .random-input, .manual-input {
+  text-align: center;
+}
+
+.manual-input-text {
+  display: inline-block;
+  width: 190px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  color: #dddddd;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex block;
+  justify-content: space-around;
+}
+
+.button:hover {
+  background-color: #5DBE61; /* Green */
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
